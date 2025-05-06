@@ -9,17 +9,17 @@ To create a simple CLI tool in PowerShell to connect to SCCM to do:
 
 ## Features
 
-Want it to be an interactive shell that closes upon "exit"
-Commands:
+- Want it to be an interactive shell that closes upon "exit"
+- Commands:
     - Help
     - Reports
     - Device
     - Device Collections
     - Echo
     - Exit
-Auto-tab completion
-Save and write to files (Will need to look more into this)
-Manual Pages (For Shell and SCCM commands)
+- Auto-tab completion
+- Save and write to files (Will need to look more into this)
+- Manual Pages (For Shell and SCCM commands)
 
 ## Examples
 
