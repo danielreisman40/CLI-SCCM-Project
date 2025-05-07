@@ -3,9 +3,9 @@
 ## Goals:
 
 To create a simple CLI tool in PowerShell to connect to SCCM to do:
-- To run CMPivot reports and convert to CSVs
-- See Device Collections
-- Collect Device information in a more streamlined fasion
+- To better automate and run CMPivot reports and convert to CSVs
+- Automate the creation of Device Collections
+- Collect Device information in a more streamlined fasion (JSON, CSV, etc.)
 
 ## Features
 
@@ -29,26 +29,15 @@ $> Help
 
 Commands: [Reports, Device Collection, Device, Echo, Exit, Help]
 
------ Reports ------
+$> Reports -Help
 
-Parameters:
+COMMAND: Reports
+
+Paramerters:
 - DeviceColletion (Optional iff device specified : mandatory)
 - Device (Optional iff devic collection specified : mandatory) 
 - Query (Mandatory)
 
-$> Reports
-
-$"Reports"> "Administrators" -DeviceCollection "*Device Collection*"
-
-$Reports> "*Query*" -DeviceCollection "*Device Collection*"
-
-$> Report -DeviceCollection "" -Device "" -Query ""
-
-
-
----- Device -----
-
-$> Device
-
+$> Report -DeviceCollection <STRING> -Device  <STRING> -Query <STRING>
 
 ```
