@@ -1,11 +1,16 @@
-# PowerShell SCCM CLI Project
+#  SCCM CLI Project
 
 ## Goals:
 
-To create a simple CLI tool in PowerShell to connect to SCCM to do:
+To create a simple CLI tool to connect to SCCM in order to:
 - To better automate and run CMPivot reports and convert to CSVs
 - Automate the creation of Device Collections
 - Collect Device information in a more streamlined fasion (JSON, CSV, etc.)
+
+## Languages
+
+- PowerShell?
+- C# (Probably prefeiied)
 
 ## Features
 

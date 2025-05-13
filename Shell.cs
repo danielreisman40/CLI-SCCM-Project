@@ -1,10 +1,18 @@
 
-namespace Shell {
+using Framework.Session;
+
+public class Shell{ 
     
-    public class Shell_Class {
+    ISession shell_session = new Session() {
         
         
 
-    }
+    };
+
+    public static void Main(string[] args) {
+       
+
+    } 
+        
 
 }
