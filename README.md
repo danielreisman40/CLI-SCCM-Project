@@ -1,4 +1,4 @@
-#  SCCM CLI Project
+# CLI SCCM Project
 
 ## Goals:
 
